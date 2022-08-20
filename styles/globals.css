@@ -5,3 +5,50 @@
 body  {
   background-color: black;
 }
+
+.txt::after {
+  content: "_";
+  /* display: relative; */
+  display: inline-block;
+  animation: identifier 1s infinite;
+  
+  /* width: 10px; */
+  /* margin-top: -10px; */
+  /* height: 10px; */
+  /* top: 20px; */
+  /* background-color: blue; */
+}
+
+.ps {
+  animation: psp 1s;
+}
+
+@keyframes identifier {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  
+}
+
+@keyframes psp {
+  from {
+    transform: translateY(10px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+.rot {
+  transform-origin: top left;
+  transform: rotate(90deg);
+  position: relative;
+  left: 105%;
+  
+}
+
