@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Divider } from "./divider";
 // import "../styles/Home.module.css";
 
 interface props {
@@ -31,6 +32,7 @@ export const Square = (props: props) => {
       className={`w-full border-gray-300 border-4 rounded-lg ${props.span} font-dot text-white  p-2`}
     >
       <h1 className={`text-3xl ${!done ? "txt" : "other"}`}>{text}</h1>
+      <Divider color="bg-slate-400" />
       <p className="font-mono text-lg text-blue-100 ps">
         We are the Foothill High School Science Club. We are a group of students
         interested in learning more about cs while fotering a creative and

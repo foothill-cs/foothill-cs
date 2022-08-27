@@ -5,7 +5,10 @@ interface props {
 }
 export const Divider = (props: props) => {
   return (
-    <div className={`h-1 w-1/12 mb-2 mt-2 ${props.color}`}></div>
+    <div
+      className={`h-1 mb-2 mt-2 ${props.color}`}
+      style={{ width: "100px" }}
+    ></div>
 
     // <div>divider</div>
   );
