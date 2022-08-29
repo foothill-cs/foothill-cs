@@ -7,7 +7,7 @@ import { Square } from "../components/square";
 
 const Home: NextPage = () => {
   return (
-    <div className="wgrid grid-cols-1 p-4 gap-4 sm:grid-cols-4">
+    <div className="grid grid-cols-1 p-4 gap-4 sm:grid-cols-4">
       <DotMatrix />
       <Square span="col-span-2" />
       <Calendar />
