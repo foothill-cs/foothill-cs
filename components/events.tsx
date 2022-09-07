@@ -4,7 +4,7 @@ import { Divider } from "./divider";
 export const Events = () => {
   return (
     <div
-      className={`w-full border-gray-300 border-4 rounded-lg font-dot text-white p-2  justify-between grid grid-cols-2 h-full col-span-2 sm:col-span-1`}
+      className={`w-full border-gray-300 border-4 rounded-lg font-dot text-white p-2 justify-between h-full col-span-2 sm:col-span-1`}
     >
       <div>
         <h1 className="text-3xl">Events</h1>
