@@ -52,3 +52,27 @@ body  {
   
 }
 
+@keyframes flash {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  70% {
+    opacity: 0.8
+  }
+  80% {
+    opacity: 0.1 
+  }
+  90% {
+    opacity: 1;
+  }
+}
+.disp {
+  animation: flash 3s;
+}
+/* disp  */

@@ -8,7 +8,7 @@ export default function Officers() {
       <h1 className="text-3xl font-dot">Officers</h1>
 
       <Divider color="bg-slate-600" />
-      <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
+      <div className="grid grid-cols-2 gap-4 sm:grid-cols-4 text-blue-100">
         <Avatar
           name={"Arnav"}
           desc="President"

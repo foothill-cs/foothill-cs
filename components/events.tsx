@@ -9,7 +9,7 @@ export const Events = () => {
       <div>
         <h1 className="text-3xl">Events</h1>
         <Divider color="bg-slate-800" />
-        <div className="font-mono text-2xl">
+        <div className="font-mono text-2xl text-blue-100">
           {/* <h1>Events</h1> */}
           <ul>
             <li>- Intro meeting (08.26.22)</li>
