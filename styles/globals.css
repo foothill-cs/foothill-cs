@@ -4,6 +4,7 @@
 
 body  {
   background-color: black;
+  perspective: 500px;
 }
 
 .txt::after {
@@ -20,7 +21,7 @@ body  {
 }
 
 .ps {
-  animation: psp 1s;
+  animation: psp 1s forwards;
 }
 
 @keyframes identifier {
@@ -38,9 +39,11 @@ body  {
 
 @keyframes psp {
   from {
+    opacity: 0;
     transform: translateY(10px);
   }
   to {
+    opacity: 1;
     transform: translateY(0px);
   }
 }
@@ -50,6 +53,11 @@ body  {
   position: relative;
   left: 105%;
   
+}
+
+.icons {
+  position: relative;
+  top: 10%;
 }
 
 @keyframes flash {
@@ -73,6 +81,7 @@ body  {
   }
 }
 .disp {
-  animation: flash 3s;
+  animation: flash 1s;
+  animation-iteration-count: 3;
 }
 /* disp  */
