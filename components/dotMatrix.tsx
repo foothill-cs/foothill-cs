@@ -56,14 +56,14 @@ export default function DotMatrix() {
         <div>CLUB</div>
         <div style={{ height: "10px", width: "5px" }}></div>
         <div className="flex w-1/2 mt-auto" style={{ gap: "10px" }}>
-          <a href="https://github.com/foothill-cs" target={"_blank"}>
+          <a href="https://github.com/foothill-cs" target={"_blank"} rel="noopener noreferrer">
             <IoLogoGithub
               // color="white"
               size={30}
               className="text-blue-100 cursor-pointer transition ease-in-out duration-100 hover:scale-150"
             />
           </a>
-          <a href="https://github.com/foothill-cs" target={"_blank"}>
+          <a href="https://github.com/foothill-cs" target={"_blank"} rel="noopener noreferrer">
             <IoMdMail
               size={30}
               className="text-blue-100 cursor-pointer transition ease-in-out duration-100 hover:scale-150"
