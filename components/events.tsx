@@ -12,7 +12,7 @@ export const Events = () => {
         <div
           className="font-mono text-2xl text-blue-100 ps"
           // transform: translateY(10px);
-          style={{ animationDelay: "0.25s", opacity: 0 }}
+          style={{ animationDelay: "0.5s", opacity: 0 }}
         >
           {/* <h1>Events</h1> */}
           <ul>
