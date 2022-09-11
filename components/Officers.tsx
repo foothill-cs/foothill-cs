@@ -15,22 +15,22 @@ export default function Officers() {
         <Avatar
           name={"Arnav"}
           desc="President"
-          picture="https://avatars.dicebear.com/api/identicon/hskjdhdsdkls.svg"
+          picture="https://avatars.dicebear.com/api/initials/AGr.svg"
         />
         <Avatar
           name={"Keerthi"}
           desc="Vice President"
-          picture="https://avatars.dicebear.com/api/identicon/hskjwdsdkls.svg"
+          picture="https://avatars.dicebear.com/api/initials/KC.svg"
         />
         <Avatar
           name={"Adi"}
           desc="Treasurer"
-          picture="https://avatars.dicebear.com/api/identicon/sdfj.svg"
+          picture="https://avatars.dicebear.com/api/initials/AVsss.svg"
         />
         <Avatar
           name={"Arav"}
           desc="Secretary"
-          picture="https://avatars.dicebear.com/api/identicon/hfjdh.svg"
+          picture="https://avatars.dicebear.com/api/initials/AAsss.svg"
         />
       </div>
     </div>
