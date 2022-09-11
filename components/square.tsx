@@ -47,7 +47,13 @@ export const Square = (props: props) => {
         </a>{" "}
         which is a fun 24 hr long hackathon held virtually this semester. To
         join please fill out this{" "}
-        <a href="https://forms.gle/WJJM3Nm7o2AZT1ys9">google form</a>.
+        <a
+          className="text-blue-400 italic"
+          href="https://forms.gle/WJJM3Nm7o2AZT1ys9"
+        >
+          google form
+        </a>
+        .
       </p>
     </div>
   );
