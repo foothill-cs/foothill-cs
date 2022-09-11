@@ -16,8 +16,8 @@ export const Events = () => {
         >
           {/* <h1>Events</h1> */}
           <ul>
-            <li>- JO applications due (09.15.22)</li>
-            <li>- Falconhacks (09.27.22)</li>
+            <li>- JO applications due (09.20.22)</li>
+            <li>- Falconhacks (TBD)</li>
           </ul>
         </div>
       </div>

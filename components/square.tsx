@@ -38,12 +38,16 @@ export const Square = (props: props) => {
         interested in learning more about cs while fotering a creative and
         inclusive environment. In this club we try to explore the numerous
         applications of computer science. We focus on providing the resources
-        for even the least experienced students. This year our plans include to
-        have cs related projects for people to work on. Also we plan to hold{" "}
+        for even the least experienced students. Our only requirement is an
+        interst in CS and being a current Foothill High School student. This
+        year our plans include to have cs related projects for people to work
+        on. Also we plan to hold{" "}
         <a href="#" className="text-blue-400 italic">
           falconhacks
         </a>{" "}
-        which is a fun 24 hr long hackathon held virtually this semester.
+        which is a fun 24 hr long hackathon held virtually this semester. To
+        join please fill out this{" "}
+        <a href="https://forms.gle/WJJM3Nm7o2AZT1ys9">google form</a>.
       </p>
     </div>
   );
