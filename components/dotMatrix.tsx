@@ -63,7 +63,7 @@ export default function DotMatrix() {
               className="text-blue-100 cursor-pointer transition ease-in-out duration-100 hover:scale-150"
             />
           </a>
-          <a href="https://github.com/foothill-cs" target={"_blank"} rel="noopener noreferrer">
+          <a href="mailto:foothillcompsciclub@gmail.com" target={"_blank"} rel="noopener noreferrer">
             <IoMdMail
               size={30}
               className="text-blue-100 cursor-pointer transition ease-in-out duration-100 hover:scale-150"
