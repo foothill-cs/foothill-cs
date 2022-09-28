@@ -12,8 +12,8 @@ export const Calendar = () => {
         <Divider color="bg-slate-500" />
 
         <div className="w-full flex flex-col items-center disp">
-          <p className="text-3xl">Sept</p>
-          <h1 style={{ fontSize: "15vw", lineHeight: 0.8 }}>21</h1>
+          <p className="text-3xl">Oct</p>
+          <h1 style={{ fontSize: "15vw", lineHeight: 0.8 }}>5</h1>
         </div>
         {/* </div> */}
       </div>
