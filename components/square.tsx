@@ -42,7 +42,7 @@ export const Square = (props: props) => {
         interst in CS and being a current Foothill High School student. This
         year our plans include to have cs related projects for people to work
         on. Also we plan to hold{" "}
-        <a href="#" className="text-blue-400 italic">
+        <a href="/falconhacks" className="text-blue-400 italic">
           falconhacks
         </a>{" "}
         which is a fun 24 hr long hackathon held virtually this semester. To
