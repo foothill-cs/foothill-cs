@@ -1,0 +1,18 @@
+import React from "react";
+import { Divider } from "./divider";
+
+export default function Officers() {
+  return (
+    <div className="text-white p-2 rounded-lg w-full col-span-2 h-full  border-gray-300 border-4">
+      <h1 className="text-3xl font-dot">Prizes</h1>
+
+      <Divider color="bg-slate-600" />
+      <div
+        className="grid grid-cols-2 gap-4 sm:grid-cols-4 text-blue-100 ps"
+        style={{ animationDelay: "0.25s", opacity: 0 }}
+      >
+        
+      </div>
+    </div>
+  );
+}
