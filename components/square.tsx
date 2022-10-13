@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Divider } from "./divider";
+import NextLink from "next/link";
+import { Link } from "./link";
 // import "../styles/Home.module.css";
 
 interface props {
@@ -42,18 +44,10 @@ export const Square = (props: props) => {
         interst in CS and being a current Foothill High School student. This
         year our plans include to have cs related projects for people to work
         on. Also we plan to hold{" "}
-        <a href="/falconhacks" className="text-blue-400 italic">
-          falconhacks
-        </a>{" "}
-        which is a fun 24 hr long hackathon held virtually this semester. To
-        join please fill out this{" "}
-        <a
-          className="text-blue-400 italic"
-          href="https://forms.gle/WJJM3Nm7o2AZT1ys9"
-        >
-          google form
-        </a>
-        .
+        <Link href="/falconhacks" text="falconhacks" blank={false} /> which is a
+        fun 24 hr long hackathon held virtually this semester. To join please
+        fill out this{" "}
+        <Link href="https://forms.gle/WJJM3Nm7o2AZT1ys9" text="form" blank />.
       </p>
     </div>
   );

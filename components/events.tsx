@@ -1,6 +1,6 @@
 import React from "react";
 import { Divider } from "./divider";
-import {Link} from "./link"
+import { Link } from "./link";
 
 export const Events = () => {
   return (
@@ -17,7 +17,15 @@ export const Events = () => {
         >
           {/* <h1>Events</h1> */}
           <ul>
-            <li>- Guest Lecture by <Link text="Dr. Weijian Yang" href="https://neuroengineering.ucdavis.edu/people/weijian-wang"/> (10.20.22)</li>
+            <li>
+              - Guest Lecture by{" "}
+              <Link
+                text="Dr. Weijian Yang"
+                href="https://neuroengineering.ucdavis.edu/people/weijian-wang"
+                blank
+              />{" "}
+              (10.20.22)
+            </li>
             <li>- Falconhacks (10.29.22)</li>
           </ul>
         </div>
