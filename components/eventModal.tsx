@@ -14,7 +14,7 @@ interface ModalProps {
 const customStyles: Modal.Styles = {
   content: {
     backgroundColor: "black",
-    height: "95vh",
+    height: "90vh",
     padding: "0px",
     // height: "auto",
   },
