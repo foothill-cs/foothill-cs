@@ -27,7 +27,7 @@ export const events: EventProps[] = [
           blank
         />
         {"\n"}
-        <p>Date: 10.20.22</p>
+        <p>Date: TBD</p>
         <p>Location: Online or in Person at Sos flex</p>
         <p>Time: During flex (12:45-1:30) on Thursday</p>
       </div>
