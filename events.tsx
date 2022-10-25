@@ -38,7 +38,7 @@ export const events: EventProps[] = [
     children: (
       <div>
         - <Link text="Falconhacks" href="/falconhacks" blank={false} />{" "}
-        (10.29.22)
+        (11.05.22)
       </div>
     ),
     id: "falconhacks",

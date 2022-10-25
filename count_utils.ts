@@ -1,5 +1,5 @@
 export function next_to_next_wed() {
-  const d1 = new Date("10/29/2022");
+  const d1 = new Date("11/05/2022");
 
   let today = new Date();
 
@@ -20,7 +20,7 @@ export function next_to_next_wed() {
 
   
   }
-  let event_day = 29;
+  let event_day = 35;
 
   let final_today = today.getDate().toString();
   let int_today = parseInt(final_today);
