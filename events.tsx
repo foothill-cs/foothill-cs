@@ -15,7 +15,7 @@ export const events: EventProps[] = [
           href="https://neuroengineering.ucdavis.edu/people/weijian-wang"
           blank
         />{" "}
-        (TBD)
+        (11.3.2022)
       </div>
     ),
     id: "weijian",
@@ -27,7 +27,7 @@ export const events: EventProps[] = [
           blank
         />
         {"\n"}
-        <p>Date: TBD</p>
+        <p>Date: 11.03.2022</p>
         <p>Location: Online or in Person at Sos flex</p>
         <p>Time: During flex (12:45-1:30) on Thursday</p>
       </div>
