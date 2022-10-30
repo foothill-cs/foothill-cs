@@ -38,6 +38,14 @@ export default function Document() {
           content="https://fhscs.tech/IMG_0064.png"
         ></meta>
         <link rel="shortcut icon" type="image/png" href="/IMG_0064.png" />
+        <style>{`
+          body.hid {
+            overflow:hidden;
+            overflow-y:hidden;
+            position: fixed;
+
+          }
+          `}</style>
       </Head>
       <body>
         <Main />

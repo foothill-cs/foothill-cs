@@ -27,7 +27,13 @@ const customStyles: Modal.Styles = {
 };
 export const Event: FC<EventProps> = (props) => {
   const { query } = useRouter();
-  const [open, setOpen] = useState(query.event === props.id);
+  const [open, setOpen] = useState(false);
+  useEffect(() => {
+    if (query.event === props.id && props.modal) {
+      setOpen(true);
+      document.body.classList.add("hid");
+    }
+  }, []);
   useEffect(() => {
     if (open) {
       // @ts-ignore
@@ -74,14 +80,16 @@ export const Event: FC<EventProps> = (props) => {
               }}
             />
           </button>
-          <div className="w-full flex flex-col text-white items-center p-0">
+          <div className="w-full flex flex-col text-white items-center p-0 ">
             {props.image ? (
               <div
                 className="w-full overflow-hidden blur-sm"
-                style={{ height: "25vh" }}
-              >
-                <img src={props.image} className="w-full" />
-              </div>
+                style={{
+                  height: "25vh",
+                  backgroundImage: `url(${props.image})`,
+                  backgroundSize: "110%",
+                }}
+              ></div>
             ) : null}
             <div className="w-3/4 text-center sm:w-1/2">
               <h1 className="font-dot text-4xl mb-6 mt-6">{props.title}</h1>
