@@ -30,6 +30,14 @@ export const events: EventProps[] = [
         <p>Date: 11.03.2022</p>
         <p>Location: Online or in Person at Sos flex</p>
         <p>Time: During flex (12:45-1:30) on Thursday</p>
+        <>
+          For more information on how to join click{" "}
+          <Link
+            text="here"
+            href="https://docs.google.com/document/d/1EgmGPl9qift3T5XmFRpLE0O3isAwrqGrb2Ee3yB01bA/edit?usp=sharing"
+            blank
+          />{" "}
+        </>
       </div>
     ),
   },
