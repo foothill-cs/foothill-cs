@@ -15,12 +15,12 @@ export default function DotMatrix() {
         (Math.abs(ev.clientX - ele.getBoundingClientRect().x) /
           ele.clientWidth -
           0.5) *
-        30;
+        20;
       const y =
         (Math.abs(ev.clientY - ele.getBoundingClientRect().y) /
           ele.clientHeight -
           0.5) *
-        30;
+        20;
       // console.log(ev.clientX, ev.clientY);
       let transform = `
       
@@ -44,7 +44,7 @@ export default function DotMatrix() {
   }, []);
   return (
     <div
-      className={`text-white bg-gray-900 p-10 rounded-lg w-full grid col-span-2`}
+      className={`text-white bg-gray-900 p-10 rounded-lg w-full grid col-span-2 dot`}
       ref={el}
       style={{
         transformOrigin: "preserve-3d",
@@ -78,7 +78,7 @@ export default function DotMatrix() {
         <div className="px-1 py-4 font-mono text-lg text-blue-100">
           | <Link text="Home" href="/" blank={false} /> |{" "}
           <Link
-            href="https://forms.gle/WJJM3Nm7o2AZT1ys9"
+            href="https://forms.gle/kL6RtitsbidZ7hkMA"
             text="Register"
             blank={true}
           />{" "}

@@ -20,7 +20,6 @@ export default function DotMatrix() {
         30;
       // console.log(ev.clientX, ev.clientY);
       let transform = `
-      
       rotateX(${x}deg)
       rotateY(${y}deg)
       `;
@@ -42,7 +41,7 @@ export default function DotMatrix() {
   }, []);
   return (
     <div
-      className="text-white  bg-gray-900 p-10 rounded-lg w-full grid grid-cols-2 col-span-2"
+      className="text-white  bg-gray-900 p-10 rounded-lg w-full grid grid-cols-2 col-span-2 dot"
       ref={el}
       style={{
         transformOrigin: "preserve-3d",
@@ -56,14 +55,22 @@ export default function DotMatrix() {
         <div>CLUB</div>
         <div style={{ height: "10px", width: "5px" }}></div>
         <div className="flex w-1/2 mt-auto" style={{ gap: "10px" }}>
-          <a href="https://github.com/foothill-cs" target={"_blank"} rel="noopener noreferrer">
+          <a
+            href="https://github.com/foothill-cs"
+            target={"_blank"}
+            rel="noopener noreferrer"
+          >
             <IoLogoGithub
               // color="white"
               size={30}
               className="text-blue-100 cursor-pointer transition ease-in-out duration-100 hover:scale-150"
             />
           </a>
-          <a href="mailto:foothillcompsciclub@gmail.com" target={"_blank"} rel="noopener noreferrer">
+          <a
+            href="mailto:foothillcompsciclub@gmail.com"
+            target={"_blank"}
+            rel="noopener noreferrer"
+          >
             <IoMdMail
               size={30}
               className="text-blue-100 cursor-pointer transition ease-in-out duration-100 hover:scale-150"

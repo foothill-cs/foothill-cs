@@ -31,7 +31,7 @@ export const Square = (props: props) => {
 
   return (
     <div
-      className={`w-full border-gray-300 border-4 rounded-lg ${props.span} font-dot text-white  p-2`}
+      className={`w-full border-gray-300 border-4 rounded-lg ${props.span} font-dot text-white  p-2 box`}
     >
       <h1 className={`text-3xl ${!done ? "txt" : "other"}`}>{text}</h1>
       <Divider color="bg-slate-400" />

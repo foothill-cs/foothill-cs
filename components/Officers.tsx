@@ -4,7 +4,7 @@ import { Divider } from "./divider";
 
 export default function Officers() {
   return (
-    <div className="text-white p-2 rounded-lg w-full col-span-2 h-full  border-gray-300 border-4">
+    <div className="text-white p-2 rounded-lg w-full col-span-2 h-full  border-gray-300 border-4 box">
       <h1 className="text-3xl font-dot">Officers</h1>
 
       <Divider color="bg-slate-600" />

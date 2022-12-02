@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Divider } from "./divider";
 import { IoLogoGithub, IoMdMail } from "react-icons/io";
+import { Link } from "./link";
 
 // import "../styles/Home.module.css";
 
@@ -31,29 +32,41 @@ export const Faq = (props: props) => {
 
   return (
     <div
-      className={`w-full border-gray-300 border-4 rounded-lg ${props.span} font-dot text-white  p-2`}
+      className={`w-full border-gray-300 border-4 rounded-lg ${props.span} font-dot text-white  p-2 box`}
     >
       <h1 className={`text-3xl ${!done ? "txt" : "other"}`}>{text}</h1>
       <Divider color="bg-slate-400" />
       <p className="font-mono text-lg text-blue-100 ps">
-        text text text 
+        <p className="italic text-blue-300">
+          What skill level do you have to be to participate?
+        </p>
+        <p>
+          We encourage anyone interested to participate regardless of skill
+          level.
+        </p>
+        <p className="italic text-blue-300">
+          I don't have a team. Can I still participate?
+        </p>
+        <p>
+          Yes, either you can submit individually or we can help provide help
+          introduce you to other participants at a similar skill level.
+        </p>
+        <p className="italic text-blue-300">How will submissions be handled?</p>
+        <p>
+          We will be accepting a github project link from each team with a
+          commit history. We expect that all code written for the project be
+          written during the competition. Failure to do so will result in
+          disqualification.{" "}
+        </p>
+        <p className="mt-2">
+          If you have any further questions please email them to us at{" "}
+          <Link
+            href="mailto://foothillcompsciclub@gmail.com"
+            text="foothillcompsciclub@gmail.com"
+            blank={false}
+          />
+        </p>
       </p>
-
-      <div className="flex w-1/2 mt-auto" style={{ gap: "10px" }}>
-          <a href="https://github.com/foothill-cs" target={"_blank"} rel="noopener noreferrer">
-            <IoLogoGithub
-              // color="white"
-              size={30}
-              className="text-blue-100 cursor-pointer transition ease-in-out duration-100 hover:scale-150"
-            />
-          </a>
-          <a href="mailto:foothillcompsciclub@gmail.com" target={"_blank"} rel="noopener noreferrer">
-            <IoMdMail
-              size={30}
-              className="text-blue-100 cursor-pointer transition ease-in-out duration-100 hover:scale-150"
-            />
-          </a>
-        </div>
     </div>
   );
 };

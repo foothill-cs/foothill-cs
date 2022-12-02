@@ -1,13 +1,13 @@
 import React, { useMemo } from "react";
 import { Divider } from "./divider";
-import { next_to_next_wed, shortMonth } from "../count_utils";
+import { daysleft, shortMonth } from "../count_utils";
 
 export const Calendar = () => {
-  const date = useMemo(() => next_to_next_wed(), []);
+  const date = useMemo(() => daysleft(), []);
 
   return (
     <div
-      className={`w-full border-gray-300 border-4 rounded-lg font-dot text-white p-2 justify-between col-span-2 sm:col-span-1 `}
+      className={`w-full border-gray-300 border-4 rounded-lg font-dot text-white p-2 justify-between col-span-2 sm:col-span-1 box`}
     >
       {/* <div> */}
       <div className="w-full mb-10">

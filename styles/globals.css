@@ -83,3 +83,69 @@ body {
   animation-iteration-count: 3;
 }
 /* disp  */
+
+.dot {
+
+  background: rgba(54, 76, 110, 0.582);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.box {
+  /* From https://css.glass */
+background: rgba(37, 37, 37, 0.76);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.1px);
+-webkit-backdrop-filter: blur(5.1px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.parental {
+  transform: scale(1.5);
+  width: 300px;
+  height: 190px;
+  background-color: transparent;
+  perspective: 1000;
+}
+
+.outer {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+  width: 100%;
+  height: 100%;
+}
+
+.front,.back {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+
+  
+}
+
+.back {
+  /* background-color: aqua; */
+  background: rgba(37, 37, 37, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transform: rotateY(180deg);
+}
+
+.front {
+  /* background-color: blue; */
+  
+}
+
+.parental:hover .outer{
+  transform: rotateY(180deg);
+}
