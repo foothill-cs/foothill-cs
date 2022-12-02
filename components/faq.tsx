@@ -45,7 +45,7 @@ export const Faq = (props: props) => {
           level.
         </p>
         <p className="italic text-blue-300">
-          I don't have a team. Can I still participate?
+          I don not have a team. Can I still participate?
         </p>
         <p>
           Yes, either you can submit individually or we can help provide help
